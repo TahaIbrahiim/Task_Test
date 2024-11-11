@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task_ANAS_Academy", "Task_ANAS_Academy\Task_ANAS_Academy.csproj", "{17FF70C9-9D83-4D44-A22A-00AD39F141C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Testing", "Testing\Testing.csproj", "{F07547EE-35B5-4186-8A7C-A5772FBEBACF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{17FF70C9-9D83-4D44-A22A-00AD39F141C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17FF70C9-9D83-4D44-A22A-00AD39F141C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17FF70C9-9D83-4D44-A22A-00AD39F141C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17FF70C9-9D83-4D44-A22A-00AD39F141C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F07547EE-35B5-4186-8A7C-A5772FBEBACF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F07547EE-35B5-4186-8A7C-A5772FBEBACF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F07547EE-35B5-4186-8A7C-A5772FBEBACF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F07547EE-35B5-4186-8A7C-A5772FBEBACF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ECE2E7AF-2A95-4D97-8B68-9EE9451421E1}
+	EndGlobalSection
+EndGlobal

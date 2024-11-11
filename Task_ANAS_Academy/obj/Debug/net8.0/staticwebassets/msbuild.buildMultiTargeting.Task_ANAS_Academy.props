@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Task_ANAS_Academy.props" />
+</Project>

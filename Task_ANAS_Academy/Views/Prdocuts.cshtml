@@ -1,0 +1,25 @@
+﻿<form id="addProductForm">
+    <input type="text" id="productName" placeholder="Product Name" />
+    <input type="number" id="productPrice" placeholder="Price" />
+    <button type="button" onclick="addProduct()">Add Product</button>
+</form>
+<div id="productList"></div>
+
+
+<script>
+    function addProduct() {
+    const productName = document.getElementById('productName').value;
+    const productPrice = document.getElementById('productPrice').value;
+
+    fetch('/api/products', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ name: productName, price: productPrice })
+    }).then(response => response.json())
+      .then(data => {
+          // Update product list
+          console.log(data);
+      });
+}
+
+</script>
